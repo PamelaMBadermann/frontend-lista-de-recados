@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#loginPage, #joinPage, #anottationPage {
+    height: 100vh;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.left {
+    background-image: url('../images/background-index.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.right {
+    background-color: #f3f2ef;
+}
+
+header {
+    background-image: url('../images/background-recados.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: start;
+    background-attachment: fixed;
+    height: 20vh;
+    color: #f3f2ef;
+}
+
+main {
+    background-color: #f3f2ef;
+    height: 80vh;
+    color: #000;
+}
+
+.recados {
+    padding-left: 10px;
+    padding-right: 10px;
+}
